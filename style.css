@@ -1,0 +1,127 @@
+
+/* question. do you ever put a doc type for CSS? seemingly not, no*/
+
+/* Remember how to comment out in CSS*/
+
+/*should i use border-style: solid; or are borders lame? border-width and border-radius to customise and border-color. could help visualise things*/
+
+/*need to find an effective method for centring*/
+
+body {
+    /*font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300; /*options to use 300-800*/
+    /*font-style: normal;*/ /*I used this Google font but I did not like it*/
+    font-family: Arial, Helvetica, sans-serif; /*maybe replace with google fonts*/
+    background-color: #132A13;
+    margin-left: auto; /*need to looking this up*/
+    margin-right: auto; /*need to looking this up*/
+    padding: 20px; /*feel like I have repetition which i want to eliminate with padding in body but padding is only seemingly working when put in specific parts like header*/
+    max-width: 640px; /*I changed this from 700 to 640 to line up with image width*/
+    /*added min width to stop background colours and text moving away from on another when screens were made narrow, e.g. mobile i/o desktop*/
+    min-width: 200px;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/ /*I used this other font but I did not like it*/
+    color: white;
+    /*font-size: 24px; I wrote this whilst experimenting with font size and em through CSS below can use 16pt or 24px*/
+}
+
+/*nav {
+    background-color: #ECF39E;
+    /*font-size: 0.8em;*/
+    /*position: absolute;
+    left: 10px;
+    top: 10px; experimented with moving position of nav bar around the page e.g. top left*/
+    /*padding-left: 100px; /*i ended up adding these padding setings to each of my elements to centre text and keep it readable as the screen sizes changed. might change it again when i learn a better way to centre than left right top bottom
+    padding-right:100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 24px; I also added font sizes before dialling it all back   
+}*/
+
+/*decided to break nav a out of nav*/
+
+/*nav li, nav li a*/ nav, nav a {
+    background-color: #ECF39E;
+    color: black; /*wanted this black for readability*/
+    padding: 0px; /*added initially to counteract perceived left align. bear in mind this is collapsing space between sections so make sure you are happy with how that looks*/
+    /*would like to make nav prettier than two hyperlink bullet points. working on it*/
+    list-style: none; /*get rid of bullet points*/
+    text-decoration: none; /*get rid of underline*/
+    gap: 10rem
+}
+
+header {
+    background-color: #90A955;
+    /*font-size: 1.2em;*/
+    /*padding: 100px;
+    margin-left: auto;
+    margin-right: auto; just experimenting with padding and moving this stuff around*/
+    /*padding-left: 100px;
+    padding-right:100px;
+    padding-top: 100px;
+    padding-bottom: 100px;*/
+    padding: 20px; /*added to counteract perceived left align*/
+
+}
+
+main {
+    background-color: #4F772D;
+    /*font-size: 1em;*/
+    /*padding-left: 100px;
+    padding-right:100px;
+    padding-top: 100px;
+    padding-bottom: 100px;*/
+    padding: 20px; /*added to counteract perceived left align*/
+    /*just padding adds same top bottom left and right. use specific to target specific*/
+}
+
+.pictureSection {
+    margin-top: 5px; /*there is a gap at bottom so adding a margin at top for symmetry*/
+}
+
+footer {
+    background-color: #31572C;
+    color: white;/*used this to change font to white because hard to read otherwise*/
+    /*font-size: 0.8em;*/
+    /*padding-left: 100px;
+    padding-right:100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 24px;*/
+    padding: 20px; /*added to counteract perceived left align*/
+}
+
+/* not sure if the below center thing is correct. found online but not on course content */
+
+/*I do not think this attempt to centre is working*/
+/*.wholeOfSiteContainer { 
+    align-items: center; not sure we covered this to be honest
+    justify-content: center; not sure we covered this to be honest 
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+/*I wrote the whiteText class to make hyperlinks white instead of blue to make them more readable against a green background in my footers*/
+
+.whiteText {
+    color: white;
+}
+
+/* thinking of using an aside later on and using the white background to show where it is
+.whiteAside {
+    background-color: white;
+    color: black;
+}
+*/
+
+/* following a webinar on design with Olly, I used Coolor to select a palette of some nice colours.I do not have a great eye for it but I used these https://coolors.co/palette/132a13-31572c-4f772d-90a955-ecf39e*/
+
+/*now to send myself mad with flexbox */
+
+.flexBox {
+    display: flex;
+    align-items: center;
+    flex-direction:row; /*this line does not seem to do anything*/
+    justify-content: center;
+    
+}

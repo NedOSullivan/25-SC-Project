@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Landing page for a website"/> <!--could add more meta tags for SEO. content description-->
+        <title>Landing Page</title>
+        <link rel="icon" type="image/png" href="images/coffee-cup.png"> <!--added in this coffee cup favicon-->
+
+        <!-- will I create a HTML form page?-->
+    
+        <!--put CSS link in here-->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div class="wholeOfSiteContainer">
+            
+    <!--here i have created a nav bar for later-->
+    <!--
+            <nav class="flexBox"> 
+                <ul>
+                    HTML here to allow this to click to other page and external link
+                    <li><a href="otherPage.html">Other Page</a></li> turned black for readability
+                    <li><a href="https://athome.starbucks.com/brewing-guide/how-brew-coffee-press" target="_blank">How to Brew</a></li>
+                    made sure external link with absolute path opens to new tab, local one with relative path does not
+                </ul> 
+
+                <p>hate</p>
+                <p>love</p>
+            </nav>
+    -->
+
+    <nav class="flexBox">
+                    <!--HTML here to allow this to click to other page and external link-->
+                    <p><a href="otherPage.html">Other Page</a></p> <!--turned black for readability-->
+                    <p><a href="https://athome.starbucks.com/brewing-guide/how-brew-coffee-press" target="_blank">How to Brew</a></p>
+                    <!--made sure external link with absolute path opens to new tab, local one with relative path does not-->
+                    <p><a href="quiz.html">Quiz</a></p>
+    </nav>
+
+            <header> <!--I added in a header to follower header, main, footer structure-->
+
+                <h1>This is my main heading</h1>
+
+                <p>Here I want to include some text</p>
+
+            </header>
+
+                <main>
+                    <section> <!--decided to put some sections into main-->
+                        <h2>This is a secondary heading</h2>
+                        <p>Here is some secondary text</p>
+                    </section>
+
+                <!-- could I include an aside?-->
+
+    <!-- below I have made an unordered list with three line items potentially for some 
+     points to make. Rules or guidelines-->
+                <section>
+                    <ul>
+                        <li>First Point</li>
+                        <li>Second Point</li>
+                        <li>Third Point</li>
+                    </ul>
+                </section>
+
+             </main>
+
+    <!--could think about adding a button somewhere for something-->
+
+     <!--added an image here. moved from main because of issues with layout-->
+             <section class="pictureSection">
+
+
+            <img src="images/americanoS.jpg" alt="Cup of coffee"> <!--image stored locally. relative path. created a folder for images in VS Code-->
+            </section>
+
+            <!-- thinking about putting an aside in
+
+            <aside class="whiteAside">
+                <p>COFFEE IS DELICIOUS</p>
+            </aside>
+
+            -->
+            
+            <footer> 
+                    <p>Some placeholder text for a footer</p>
+                    <p>Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="whiteText">Nathan Dumlao</a> on <a href="https://unsplash.com/photos/white-ceramic-mug-filled-with-coffee-nBJHO6wmRWw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="whiteText">Unsplash</a>
+                    </p>
+                    <!--below I have kept the sources for two alternative favicons and PNGs incase I want to use them. they are commented out-->
+                    <!--<p><a href="https://www.flaticon.com/free-icons/coffee" title="coffee icons">Coffee icons created by Chanut-is-Industries - Flaticon</a></p>-->
+                    <!--<p><a href="https://www.flaticon.com/free-icons/coffee" title="coffee icons">Coffee icons created by Freepik - Flaticon</a></p>-->
+                    <p><a href="https://www.flaticon.com/free-icons/food-and-restaurant" title="food and restaurant icons" class="whiteText">Food and restaurant icons created by Octopocto - Flaticon</a></p> <!--I would like to change colour to make more readable. higher priority. maybe write a class for hyperlinks-->
+
+                <!--could I write something like the following piece of code in the footer
+                <p>To return to the top of the page click <a href="#" target="#">here</a>!</p>
+                so that the user could click and go back to the top. Kei or Kay had one if reference needed.
+                -->
+            </footer>
+        </div>
+    </body>
+</html>

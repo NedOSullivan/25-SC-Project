@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Other page for a website"/> <!--could add more meta tags for SEO. content description-->
+    <title>My Other Page</title>
+    <link rel="icon" type="image/png" href="images/coffee-cup.png"> <!--added in this coffee cup favicon-->
+    <link rel="stylesheet" href="style.css">
+    <!-- could I use multiple style sheets to change this otherPage? however, want to keep in mind consistency-->
+
+</head>
+
+<body>
+    <div class="wholeOfSiteContainer">
+
+    <!-- I forgot to copy my boiler plate to another page but doing so here and now. 
+     Update this.-->
+
+    <!--here i have created a nav bar for later -->
+
+
+<!-- old-->
+ <!--
+    <nav class="flexBox">
+        <ul>
+            HTML here to allow this to click to other page and external link
+            <li><a href="index.html">Home</a></li> turned black for readability
+            <li><a href="https://www.cordonbleu.edu/news/croissant-recipe-chef-secrets/en" target="_blank">Croissant Recipe</a></li> I wrapped this with View then Word Wrap or could use alt and Z
+            made sure external link with absolute path opens to new tab, local one with relative path does not
+        </ul>
+    </nav>
+    -->
+
+    <!--old-->
+
+    <!--new-->
+
+    <nav class="flexBox">
+                    <!--HTML here to allow this to click to other page and external link-->
+                    <p><a href="index.html">Home</a></p> <!--turned black for readability-->
+                    <p><a href="https://www.cordonbleu.edu/news/croissant-recipe-chef-secrets/en" target="_blank">Croissant Recipe</a></p>
+                    <!--made sure external link with absolute path opens to new tab, local one with relative path does not-->
+                    <p><a href="quiz.html">Quiz</a></p>
+    </nav>
+
+    <!--new-->
+
+    <header> <!--I added in a header to follower header, main, footer structure-->
+        <h1>This is my other page main heading</h1>
+        
+        <p>Here I want to include some other page text</p>
+
+    </header>
+
+    <main>
+        <section> <!--decided to put some sections into main-->
+            <h2>This is my other page secondary heading</h2>
+            <p>Here is some other page secondary text</p>
+        </section>
+
+        <section>
+            <!--this time I will switch to an ordered list-->
+            <ol>
+                <li>First Point</li>
+                <li>Second Point</li>
+                <li>Third Point</li>
+            </ol>
+        </section>
+    </main>
+
+    <section class="pictureSection">
+
+     <!--image stored locally. relative path. created a folder for images in VS Code-->
+     <img src="images/pastry.jpg" alt="A sweet pastry">
+
+     </section>
+
+    <!-- thinking about putting an aside in
+
+            <aside class="whiteAside">
+                <p>PASTRIES ARE TASTY</p>
+            </aside>
+            -->
+            
+
+    <footer>
+        <p>Will likely add some stuff later</p>
+        <p>Photo by <a href="https://unsplash.com/@cceee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="whiteText">Cody  Chan</a> on <a href="https://unsplash.com/photos/brown-bread-on-white-ceramic-plate-BhK9JdaBTvk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="whiteText">Unsplash</a>
+      </p>
+      <!--below I have kept the sources for two alternative favicons and PNGs incase I want to use them. they are commented out-->
+      <!--<p><a href="https://www.flaticon.com/free-icons/coffee" title="coffee icons">Coffee icons created by Chanut-is-Industries - Flaticon</a></p>-->
+      <!--<p><a href="https://www.flaticon.com/free-icons/coffee" title="coffee icons">Coffee icons created by Freepik - Flaticon</a></p>-->
+      <p><a href="https://www.flaticon.com/free-icons/food-and-restaurant" title="food and restaurant icons" class="whiteText">Food and restaurant icons created by Octopocto - Flaticon</a></p> <!--I would like to change colour to make more readable. higher priority. maybe write a class for hyperlinks-->
+    </footer>
+    </div>
+</body>
+</html>
