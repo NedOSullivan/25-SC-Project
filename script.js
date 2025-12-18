@@ -1,10 +1,4 @@
-// console.log("jeelow,curled")
-
-// function quizOver() { //won't take a parameter
-//     alert("Quiz over. Good work!");
-// }
-
-function checkThem () {
+function checkThem () { //function to check quiz answers
     //assign "0" to the "score" variable
     let score = 0;
     //assign the quiz elements to the quiz variable
@@ -33,11 +27,8 @@ function checkThem () {
         score = score + 1;
     }
 
-    //add three more questions to HTML and JS. check it regularly.
-
-
-
+    //alert to page with user's score
     alert ("Nice one, you scored " + score);
 
-
 }
+
