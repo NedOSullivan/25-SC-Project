@@ -1,21 +1,22 @@
 # 25-SC-Project
-Here you might put a little intro of what this is. in the original GitHub desktop create feature.
+Here is a page that I created for a coffee community in Stockport
 
 -description of website. 
 
 TO DO:
-1. Make contact page
-2. Check contrast of colours
+1. Add weather widget
+2. Check colour contrast
+3. Add image gallery
 
-## Sub Heading
+## Updates coming soon
 
-### Sub Sub Heading
+### This is an ongoing piece of work
 
-*italic*
+*will be updated sporadically*
 
-**bold**
+**but still updated**
 
-~~strikethrough~~
+~~promise~~
 
 
 
