@@ -23,7 +23,7 @@ function checkThem () { //function to check quiz answers
         score = score + 1;
     }
     answerFive = quiz.producer.value;
-    if (answerFive === "Brasil") {
+    if (answerFive === "Brazil") {
         score = score + 1;
     }
 
